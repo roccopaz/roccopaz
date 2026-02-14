@@ -9,7 +9,6 @@ CIS student (Texas State, May 2027) and Army Veteran pursuing cybersecurity/IT i
 ## Projects (highlights)
 - Python Password Strength Checker
 - Log Analyzer (failed login detection)
-- Simple Port Scanner (lab-only)
 
 ## Skills
 Python • Linux • Networking • Security Fundamentals • Wireshark • Git/GitHub
