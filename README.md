@@ -1,16 +1,18 @@
-## Hi there 👋
+# Hi, I'm Rocco
 
-<!--
-**roccopaz/roccopaz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+CIS student (Texas State, May 2027) and Army Veteran pursuing cybersecurity/IT internships.
 
-Here are some ideas to get you started:
+## What I'm working on
+- Beginner security projects (Python + networking)
+- Building a small home lab and documenting what I learn
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects (highlights)
+- Python Password Strength Checker
+- Log Analyzer (failed login detection)
+- Simple Port Scanner (lab-only)
+
+## Skills
+Python • Linux • Networking • Security Fundamentals • Wireshark • Git/GitHub
+
+## Connect
+- LinkedIn: https://www.linkedin.com/in/roccopaz/
