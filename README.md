@@ -41,7 +41,7 @@ A full-featured dark-mode operations dashboard for monitoring AI agents, project
 
 ---
 
-### ⚡ OpenClaw VPS AI System
+### ⚡ [OpenClaw VPS AI System](https://github.com/roccopaz/mission-control)
 > Self-hosted production multi-agent AI platform running 24/7 on a Linux VPS
 
 Deployed and operate an always-on AI infrastructure where 4 specialized agents collaborate autonomously — handling research, content creation, coding, and orchestration. Controlled entirely through Discord with persistent memory and automated scheduling.
@@ -57,7 +57,7 @@ Deployed and operate an always-on AI infrastructure where 4 specialized agents c
 
 ---
 
-### 🎬 AI Content Clipping Pipeline
+### 🎬 [AI Content Clipping Pipeline](https://github.com/roccopaz/ai-content-pipeline)
 > Automated video-to-Shorts workflow: raw footage in → published-ready clips out
 
 Built an end-to-end content automation pipeline using Google Drive as the storage layer and AI agents for analysis and decision-making.
@@ -73,7 +73,7 @@ Built an end-to-end content automation pipeline using Google Drive as the storag
 
 ---
 
-### 🔒 Secure AI Service Architecture
+### 🔒 [Secure AI Service Architecture](https://github.com/roccopaz/secure-ai-architecture)
 > Applied enterprise DevSecOps principles to protect personal data in AI infrastructure
 
 - **Tailscale VPN** (WireGuard) — zero public SSH exposure, zero-trust network access
