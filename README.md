@@ -19,11 +19,27 @@
 - 🐍 **Python** — Security tooling, automation scripts, API integrations, CLI tools
 - 🐧 **Linux & VPS** — Server provisioning, SSH hardening, firewall config, systemd, process management
 - ☁️ **Google APIs** — Drive, Docs, Sheets, OAuth 2.0 — full Workspace integration
-- 🔗 **REST APIs** — Anthropic, OpenAI, Discord, Google Workspace
+- 🔗 **REST APIs** — Anthropic, OpenAI, Discord, Google Workspace, Amazon SP-API, YNAB, Brave Search, Postiz
 
 ---
 
 ## 🚀 Projects
+
+### 🏢 [Mission Control Dashboard](https://github.com/roccopaz/mission-control)
+> Custom AI operations hub — built with AI-assisted development using Claude Code + OpenClaw
+
+[![Preview](https://raw.githubusercontent.com/roccopaz/mission-control/main/images/dashboard-main.jpg)](https://roccopaz.github.io/mission-control/preview.html)
+
+A full-featured dark-mode operations dashboard for monitoring AI agents, projects, revenue, and content pipelines. Built using AI-assisted development with **Claude Code** and **OpenClaw**, applying prompt engineering and iterative refinement.
+
+**Features:** Agent status, Kanban board, revenue P&L, content calendar, trending intel feed, roadmap timeline
+**Live APIs:** Amazon SP-API · YNAB Budgeting · Brave Search · Postiz · ISS Tracker
+
+[🔗 Live Demo](https://roccopaz.github.io/mission-control/) · [📸 Preview Page](https://roccopaz.github.io/mission-control/preview.html) · [💻 Source](https://github.com/roccopaz/mission-control)
+
+`HTML` `CSS` `JavaScript` `Claude Code` `OpenClaw` `REST APIs`
+
+---
 
 ### ⚡ OpenClaw VPS AI System
 > Self-hosted production multi-agent AI platform running 24/7 on a Linux VPS
@@ -60,16 +76,13 @@ Built an end-to-end content automation pipeline using Google Drive as the storag
 ### 🔒 Secure AI Service Architecture
 > Applied enterprise DevSecOps principles to protect personal data in AI infrastructure
 
-When deploying AI systems that interact with real accounts, I designed an isolated service identity architecture.
+- **Tailscale VPN** (WireGuard) — zero public SSH exposure, zero-trust network access
+- **Dedicated service account** — separate Google account for AI access; personal data never exposed
+- **Scoped OAuth permissions** — least privilege per API; Gmail intentionally excluded
+- **Encrypted credential storage** — keyring backend on VPS, never in plaintext or version control
+- **API key segmentation** — environment variables, rotatable without downtime
 
-**What I implemented:**
-- **Dedicated service account** — separate Google account for AI access; personal data never exposed to the runtime
-- **Scoped OAuth permissions** — each API (Drive, Docs, Sheets) authorized independently with minimum required scopes (least privilege)
-- **Gmail explicitly excluded** — AI cannot read or send personal email by design
-- **Encrypted credential storage** — OAuth tokens stored via keyring backend on VPS, never in plaintext or version control
-- **API key segmentation** — Anthropic and OpenAI keys as environment variables, rotatable without downtime
-
-**Concepts:** `Least Privilege` `Service Identity Isolation` `OAuth 2.0` `Blast Radius Containment` `Secrets Hygiene` `DevSecOps`
+**Concepts:** `Zero Trust` `Least Privilege` `OAuth 2.0` `Blast Radius Containment` `Secrets Hygiene` `DevSecOps`
 
 ---
 
