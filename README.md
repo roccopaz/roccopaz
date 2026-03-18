@@ -1,6 +1,6 @@
 # Hey, I'm Rocco Paz 👋
 
-**Computer Information Systems Senior @ Texas State University | 🇺🇸 Veteran | Cybersecurity + AI**
+**Computer Information Systems Senior @ Texas State University | Veteran | Cybersecurity + AI**
 
 > Building security tools and AI automation systems. Open to Tech & AI internships.
 
