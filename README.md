@@ -30,7 +30,7 @@
 Deployed and operate an always-on AI infrastructure where 4 specialized agents collaborate autonomously — handling research, content creation, coding, and orchestration. Controlled entirely through Discord with persistent memory and automated scheduling.
 
 **What I built:**
-- Provisioned and secured a Linux VPS (SSH hardening, UFW firewall, systemd services)
+- Provisioned and secured a Linux VPS (SSH hardening, UFW firewall, systemd services) and VPN tunneling through Tailscale
 - Deployed OpenClaw (Node.js AI orchestration runtime) and configured 4 AI agents with distinct roles
 - Integrated Discord API, Google Drive/Docs/Sheets API, Anthropic Claude, and OpenAI Codex
 - Built automated content pipelines using FFmpeg for video processing
