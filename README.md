@@ -2,7 +2,7 @@
 
 **Computer Information Systems Senior @ Texas State University | 🇺🇸 Veteran | Cybersecurity + AI**
 
-> Building SaaS tools and AI automation systems. Open to Tech & AI internships.
+> Building security tools and AI automation systems. Open to Tech & AI internships.
 
 ---
 
@@ -14,11 +14,12 @@
 ![Discord](https://img.shields.io/badge/Discord_API-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_APIs-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-- 🔐 **Cybersecurity** — Log analysis, threat detection, foundational security principles
-- 🤖 **Agentic AI Automation** — Multi-agent orchestration, LLM integration, workflow automation
-- 🐍 **Python** — Security tooling, CLI tools, scripting
-- 🐧 **Linux & VPS** — Server provisioning, SSH hardening, firewall config, process management
-- 🔗 **APIs & Integrations** — REST APIs, Discord, Google Workspace, Anthropic, OpenAI
+- 🔐 **Cybersecurity** — Log analysis, threat detection, foundational security principles, OAuth 2.0
+- 🤖 **Agentic AI Automation** — Multi-agent orchestration, LLM integration, autonomous workflow design
+- 🐍 **Python** — Security tooling, automation scripts, API integrations, CLI tools
+- 🐧 **Linux & VPS** — Server provisioning, SSH hardening, firewall config, systemd, process management
+- ☁️ **Google APIs** — Drive, Docs, Sheets, OAuth 2.0 — full Workspace integration
+- 🔗 **REST APIs** — Anthropic, OpenAI, Discord, Google Workspace
 
 ---
 
@@ -30,26 +31,57 @@
 Deployed and operate an always-on AI infrastructure where 4 specialized agents collaborate autonomously — handling research, content creation, coding, and orchestration. Controlled entirely through Discord with persistent memory and automated scheduling.
 
 **What I built:**
-- Provisioned and secured a Linux VPS (SSH hardening, UFW firewall, systemd services) and VPN tunneling through Tailscale
-- Deployed OpenClaw (Node.js AI orchestration runtime) and configured 4 AI agents with distinct roles
-- Integrated Discord API, Google Drive/Docs/Sheets API, Anthropic Claude, and OpenAI Codex
-- Built automated content pipelines using FFmpeg for video processing
-- Designed a cross-session memory architecture so agents retain context over time
+- Provisioned and secured a Linux VPS (SSH hardening, UFW firewall, systemd services)
+- Deployed OpenClaw (Node.js AI orchestration runtime) and configured 4 specialized AI agents
+- Integrated Discord API, Google Workspace APIs, Anthropic Claude, and OpenAI Codex
+- Designed cross-session memory architecture for agent context persistence
 - Implemented cron-based scheduling for autonomous recurring tasks
 
 **Stack:** `Linux Ubuntu 24.04` `Node.js v22` `Claude AI` `OpenAI Codex` `Discord API` `Google Workspace API` `FFmpeg` `Python` `Bash` `REST APIs` `Git`
 
 ---
 
+### 🎬 AI Content Clipping Pipeline
+> Automated video-to-Shorts workflow: raw footage in → published-ready clips out
+
+Built an end-to-end content automation pipeline using Google Drive as the storage layer and AI agents for analysis and decision-making.
+
+**How it works:**
+1. Raw videos uploaded to Google Drive *Incoming Source Clips* folder via Drive API
+2. AI agent analyzes footage using FFmpeg + Whisper (speech-to-text) — extracts frames, detects silence, transcribes audio
+3. Agent recommends best timestamps for hooks and highlights
+4. FFmpeg renders draft clips, auto-uploaded to *Draft Exports* folder in Drive
+5. Google Sheets API logs every clip with status, timestamps, and performance notes
+
+**Stack:** `Google Drive API` `Google Sheets API` `Google Docs API` `FFmpeg` `Whisper` `Claude AI` `Python` `Bash` `OAuth 2.0`
+
+---
+
+### 🔒 Secure AI Service Architecture
+> Applied enterprise DevSecOps principles to protect personal data in AI infrastructure
+
+When deploying AI systems that interact with real accounts, I designed an isolated service identity architecture.
+
+**What I implemented:**
+- **Dedicated service account** — separate Google account for AI access; personal data never exposed to the runtime
+- **Scoped OAuth permissions** — each API (Drive, Docs, Sheets) authorized independently with minimum required scopes (least privilege)
+- **Gmail explicitly excluded** — AI cannot read or send personal email by design
+- **Encrypted credential storage** — OAuth tokens stored via keyring backend on VPS, never in plaintext or version control
+- **API key segmentation** — Anthropic and OpenAI keys as environment variables, rotatable without downtime
+
+**Concepts:** `Least Privilege` `Service Identity Isolation` `OAuth 2.0` `Blast Radius Containment` `Secrets Hygiene` `DevSecOps`
+
+---
+
 ### 🔍 [Log Analyzer](https://github.com/roccopaz/log-analyzer)
-Parses authentication log entries, extracts IPs associated with failed login attempts, and flags suspicious activity based on configurable thresholds. Simulates real-world SIEM-style threat detection logic.
+Parses authentication logs, extracts IPs associated with failed login attempts, and flags suspicious activity based on configurable thresholds. Simulates real-world SIEM-style threat detection.
 
 `Python` `Log Parsing` `Threat Detection` `Cybersecurity`
 
 ---
 
 ### 🔑 [Password Strength Checker](https://github.com/roccopaz/python-password-strength-checker)
-Python tool demonstrating password validation logic with complexity rules and actionable security feedback. Foundational security UX applied in code.
+Python tool demonstrating password validation logic with complexity rules and actionable security feedback.
 
 `Python` `Input Validation` `Cybersecurity`
 
