@@ -2,7 +2,7 @@
 
 **Computer Information Systems Senior @ Texas State University | 🇺🇸 Veteran | Cybersecurity + AI**
 
-> Building security tools and AI automation systems. Open to Tech & AI internships.
+> Building SaaS tools and AI automation systems. Open to Tech & AI internships.
 
 ---
 
