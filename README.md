@@ -25,6 +25,18 @@
 
 ## 🚀 Projects
 
+### 📊 [Amazon Weekly Dashboard](https://github.com/roccopaz/amazon-dashboard)
+> Weekly Amazon seller KPI dashboard — revenue, ads, inventory & profitability tracking
+
+Dark-mode dashboard for tracking weekly Amazon business metrics with CSV import/export and interactive charts. Built with AI-assisted development using **Claude Code**.
+
+**KPIs:** Units Sold · Revenue · TACoS · CPC · CTR · Conversion Rate · Sessions · Reviews · Inventory · Ad Spend · Profit · ASP · WoW Change
+**Features:** CSV import/export, Chart.js visualizations, localStorage persistence, week-over-week trend indicators
+
+`HTML` `CSS` `JavaScript` `Chart.js` `Amazon SP-API`
+
+---
+
 ### 🏢 [Mission Control Dashboard](https://github.com/roccopaz/mission-control)
 > Custom AI operations hub — built with AI-assisted development using Claude Code + OpenClaw
 
